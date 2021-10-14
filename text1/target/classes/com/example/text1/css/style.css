@@ -1,0 +1,75 @@
+.root{
+    -fx-background-image: url(../img/bg1.jpg);
+    -fx-background-size: cover;
+}
+
+.container{
+    -fx-background-color: #6dd5ed;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.title{
+    -fx-text-fill: #24243e;
+    -fx-font-size: 15;
+}
+
+.btn{
+    -fx-background-color: #29ffc6;
+    -fx-text-fill:#c06c84 ;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-min-height: 30;
+    -fx-arc-width: 80;
+}
+
+/*图片背景*/
+.bg{
+    -fx-background-image: url(../img/bg1.jpg);
+    -fx-background-size: cover;
+}
+
+/*自定义标题栏*/
+.top{
+    -fx-background-color: transparent;
+}
+/*logo*/
+.logo{
+    -fx-min-height: 30.0;
+    -fx-min-width: 30;
+    -fx-background-radius: 10px;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-background-size: 30px 30px;
+    -fx-background-image: url("../img/bg.png");
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+}
+/*圆角面板背景*/
+.bg.radius{
+    -fx-background-color: linear-gradient(to right,#2196f3,#f44336);
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+/*分割面板，设置水平垂直分割条透明*/
+ .split-pane:horizontal > .split-pane-divider{
+     -fx-background-color: transparent;
+
+}
+ .split-pane:vertical > .split-pane-divider{
+     -fx-background-color: transparent;
+ }
+ /*表格样式*/
+.table-view .table-row-call{
+    -fx-background-insets: 0;
+}
+.table-view .table-row-call{
+    -fx-border-width: 0px;
+}
+/*表格边框颜色*/
+.table-view *.colum-header-background {
+    -fx-background-color: linear-gradient(to right,#7886DF,#C3B8F0);
+    -fx-background-insets: 0px,0px;
+}

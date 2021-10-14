@@ -1,0 +1,6 @@
+com\example\text1\MainApp.class
+module-info.class
+com\example\text1\view\PersonController.class
+com\example\text1\utli\DateUtli.class
+com\example\text1\App.class
+com\example\text1\model\Person.class
