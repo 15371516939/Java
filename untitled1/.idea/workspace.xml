@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4e6e5bb-c5f2-433a-8f1e-4a5aeaeccfbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Plechart/src/main/java/io/github/duyunjian/plechart/PieChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plechart/src/main/java/io/github/duyunjian/plechart/utli/SystemInfoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jartest/jartest/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jartest/jartest/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jartest/jartest/xvf/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jartest/jartest/xvf/usejar/UseJarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-demo/src/main/java/io/duyunjian/netty/demo/ByteArrayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-demo/src/main/java/io/duyunjian/netty/demo/BytesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-demo/src/main/java/io/duyunjian/netty/demo/TcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-demo/src/main/java/io/duyunjian/netty/demo/TcpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notepad/src/main/java/com/example/notepad/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notepad/src/main/java/com/example/notepad/view/NotepadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notepad/src/main/resources/com/example/notepad/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notepad/src/main/resources/com/example/notepad/view/notepad.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/oop：面向对象/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/oop：面向对象/ShallowOrDeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/oop：面向对象/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/other/URLRegExSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/serialize/io/github/java/serialize/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/serialize/io/github/java/serialize/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/serialize/io/github/java/serialize/StudentSerialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/serialize/io/github/java/serialize/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FarmDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass/Hardware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass/ITOfficer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass/JavaEE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/Cuboid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/TeseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/TestAbstact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/TestShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absclass02/Trapezoid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/annotation：注解.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/github.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/reflect/ClassDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/reflect/ReflectDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/reflect/TargetObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/reflect/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/person/TestComputer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/io/github/java/person/TestComputer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/reflect/ClassDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/reflect/ReflectDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/reflect/TargetObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/reflect/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/io/duyunjian/weather/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/io/duyunjian/weather/config/AppConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/io/duyunjian/weather/util/ApiConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/io/duyunjian/weather/view/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/src/main/resources/io/duyunjian/weather/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/config/AppConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/util/ApiConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/view/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/weather.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\tools\maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../tools/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="E:\tools\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="1znZGKQDlaqCC2EfLe9Ai6BLTZC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RunManager" selected="Application.FrameDemo">
+    <configuration name="FrameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FrameDemo" />
+      <module name="untitled1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyDate" />
+      <module name="untitled1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="absclass02.TeseApp" />
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="absclass02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="absclass.TestEmployee" />
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="absclass02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="absclass02.TestShape" />
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="absclass02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FrameDemo" />
+        <item itemvalue="Application.MyDate" />
+        <item itemvalue="Application.TestShape" />
+        <item itemvalue="Application.TestEmployee" />
+        <item itemvalue="Application.TeseApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4e6e5bb-c5f2-433a-8f1e-4a5aeaeccfbb" name="Changes" comment="" />
+      <created>1634785718483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634785718483</updated>
+      <workItem from="1634785720130" duration="2295000" />
+      <workItem from="1634800054913" duration="1708000" />
+      <workItem from="1634804740000" duration="8295000" />
+      <workItem from="1634817172011" duration="5988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
