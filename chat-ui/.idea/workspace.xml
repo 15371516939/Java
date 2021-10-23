@@ -5,27 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30328baa-b358-4810-97dc-48e4731bc8cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_materialdesign_pack_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/util/AutoSizeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/util/CacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/util/Ids.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/chat/data/TalkBoxData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/chat/group_bar_chat/ElementTalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_talk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/css/group_bar_chat/group_bar_chat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-ui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/UIObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/login/ILoginEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/login/ILoginMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/login/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/login/LoginEventDefine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/login/LoginInit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/login/LoginView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/img/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/img/close_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/img/close_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/img/me.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/img/min_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/img/min_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/login/login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/chat/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/chat/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/chat/ChatEventDefine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/chat/ChatEventDefine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/chat/IChatMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/chat/IChatMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/chat/ui/view/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/css/chat-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/css/chat-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/css/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/top/syhan/chat/ui/view/chat/css/chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/ChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/ChatEventDefine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/ChatEventDefine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/IChatMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/IChatMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/css/chat-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/css/chat-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/css/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/chat/ui/view/chat/css/chat.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +46,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -50,6 +69,11 @@
         <option name="mavenHome" value="$PROJECT_DIR$/../../../tools/apache-maven-3.8.2" />
         <option name="userSettingsFile" value="E:\tools\apache-maven-3.8.2\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
@@ -76,10 +100,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study\Java2\chat-ui\src\main\resources\top\syhan\chat\ui\view\chat\css\group_bar_chat" />
       <recent name="E:\study\JAVA-S\chat-ui\src\main\resources\top\mqxu\chat\ui\login" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -131,6 +157,9 @@
       <workItem from="1634825025379" duration="5355000" />
       <workItem from="1634923197677" duration="51000" />
       <workItem from="1634923428113" duration="136000" />
+      <workItem from="1634923714864" duration="463000" />
+      <workItem from="1634992552474" duration="14319000" />
+      <workItem from="1635010047798" duration="41000" />
     </task>
     <servers />
   </component>
