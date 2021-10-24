@@ -38,3 +38,6 @@
 .groupBarLocation {
     -fx-background-color: linear-gradient(to right, #108dc7, #ef8e38);
 }
+.groupBarSet {
+     -fx-background-color: linear-gradient(to right, #11998e, #38ef7d);
+ }

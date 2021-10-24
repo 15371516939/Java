@@ -22,9 +22,6 @@ public class ChatEventDefine {
         this.barSet();
     }
 
-    private void barSet() {
-    }
-
     private void switchBarChat(Button barChat, Pane groupBarChat, boolean toggle) {
         if (toggle) {
             groupBarChat.setVisible(true);
@@ -56,6 +53,15 @@ public class ChatEventDefine {
         }
     }
 
+    private void switchBarSet(Button barSet, Pane groupBarSet, boolean toggle) {
+        if (toggle) {
+            groupBarSet.setVisible(true);
+            barSet.getGraphic().setStyle("-fx-icon-color:'#9E99EE'");
+        } else {
+            groupBarSet.setVisible(false);
+            barSet.getGraphic().setStyle("-fx-icon-color:'#6F6F70'");
+        }
+    }
 
     private void barChat() {
         Button barChat = chatInit.$("barChat", Button.class);
@@ -64,6 +70,7 @@ public class ChatEventDefine {
             switchBarChat(barChat, groupBarChat, true);
             switchBarFriend(chatInit.$("barFriend", Button.class), chatInit.$("groupBarFriend", Pane.class), false);
             switchBarLocation(chatInit.$("barLocation", Button.class), chatInit.$("groupBarLocation", Pane.class), false);
+            switchBarSet(chatInit.$("barSet", Button.class), chatInit.$("groupBarSet", Pane.class), false);
         });
 
         barChat.setOnMouseEntered(event -> {
@@ -89,6 +96,7 @@ public class ChatEventDefine {
                     switchBarChat(chatInit.$("barChat", Button.class), chatInit.$("groupBarChat", Pane.class), false);
                     switchBarFriend(barFriend, groupBarFriend, true);
                     switchBarLocation(chatInit.$("barLocation", Button.class), chatInit.$("groupBarLocation", Pane.class), false);
+                    switchBarSet(chatInit.$("barSet", Button.class), chatInit.$("groupBarSet", Pane.class), false);
                 }
         );
         barFriend.setOnMouseEntered(event -> {
@@ -114,6 +122,7 @@ public class ChatEventDefine {
                     switchBarChat(chatInit.$("barLocation", Button.class), chatInit.$("groupBarLocation", Pane.class), false);
                     switchBarFriend(chatInit.$("barFriend", Button.class), chatInit.$("groupBarFriend", Pane.class), false);
                     switchBarLocation(barLocation, groupBarLocation, true);
+                    switchBarSet(chatInit.$("barSet", Button.class), chatInit.$("groupBarSet", Pane.class), false);
                 }
         );
         barLocation.setOnMouseEntered(event -> {
@@ -129,6 +138,33 @@ public class ChatEventDefine {
                 return;
             }
             barLocation.getGraphic().setStyle("-fx-icon-color:'#6F6F70'");
+        });
+    }
+
+
+    private void barSet() {
+        Button barSet = chatInit.$("barSet", Button.class);
+        Pane groupBarSet = chatInit.$("groupBarSet", Pane.class);
+        barSet.setOnAction(event -> {
+                    switchBarChat(chatInit.$("barChat", Button.class), chatInit.$("groupBarChat", Pane.class), false);
+                    switchBarFriend(chatInit.$("barFriend", Button.class), chatInit.$("groupBarFriend", Pane.class), false);
+                    switchBarLocation(chatInit.$("barLocation", Button.class), chatInit.$("groupBarLocation", Pane.class), false);
+                    switchBarSet(barSet, groupBarSet, true);
+                }
+        );
+        barSet.setOnMouseEntered(event -> {
+            boolean visible = groupBarSet.isVisible();
+            if (visible) {
+                return;
+            }
+            barSet.getGraphic().setStyle("-fx-icon-color:'#F6F6F6'");
+        });
+        barSet.setOnMouseExited(event -> {
+            boolean visible = groupBarSet.isVisible();
+            if (visible) {
+                return;
+            }
+            barSet.getGraphic().setStyle("-fx-icon-color:'#6F6F70'");
         });
     }
 
