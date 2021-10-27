@@ -20,12 +20,13 @@ import java.util.Date;
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        ILoginMethod login = new LoginController((userId, userPassword, loginController) -> {
-            if ("180".equals(userId) && "123".equals(userPassword)) {
-                loginController.doLoginSuccess();
+        //ILoginMethod login = new LoginController((userId, userPassword, loginController) -> {
+        //    if ("180".equals(userId) && "123".equals(userPassword)) {
+        //        loginController.doLoginSuccess();
                 IChatMethod chat = new ChatController(new IChatEvent() {
                 });
                 chat.doShow();
+                //用户信息
                 chat.setUserInfo("1000001", "duyunjian", "https://obohe.com/i/2021/10/24/j9yeu.png");
 
                 // 好友 - 对话框
@@ -67,24 +68,18 @@ public class Main extends Application {
                 chat.addTalkMsgRight("5307397", "307班", new Date(), true, true, false);
                 chat.addTalkMsgGroupLeft("5307397", "1000002", "副班长-孙周", "https://obohe.com/i/2021/10/24/j9vsa.jpg", "我是正班长", new Date(), true, false, true);
                 chat.addTalkMsgGroupLeft("5307397", "1000006", "班长-赵源", "https://obohe.com/i/2021/10/24/k9vcl.jpg", "我才是", new Date(), true, false, true);
-//                 //填充对话框测试数据
-//                chat.addTalkBox(-1, 0, "1000001", "一号床", "https://tva3.sinaimg.cn/large/9bd9b167ly1g1p9q1ufe2j20b40b4mxr.jpg", "(ง •̀_•́)ง", new Date(), true);
-//                chat.addTalkBox(-1, 0, "1000002", "二号床", "https://tva3.sinaimg.cn/large/9bd9b167ly1fzjvsomfksj20b40b4aap.jpg", "(ΘェΘ)", new Date(), true);
-//                chat.addTalkBox(-1, 0, "1000003", "三号床", "https://tva4.sinaimg.cn/large/9bd9b167ly1fzjwiy6180j20b40b4zkn.jpg", "(￢_￢)", new Date(), false);
-//                chat.addTalkBox(-1, 0, "1000004", "四号床", "https://tva4.sinaimg.cn/large/9bd9b167ly1g1p9ptiip4j20b40b4aak.jpg", "(눈_눈)", new Date(), false);
-//                chat.addTalkBox(-1, 0, "1000005", "五号床", "https://tva4.sinaimg.cn/large/9bd9b167gy1fzjvs8min4j20b40b4q3g.jpg", "(•‾̑⌣‾̑•)", new Date(), false);
-//                chat.addTalkBox(-1, 0, "1000006", "六号床", "https://tva4.sinaimg.cn/large/9bd9b167ly1g1p9pt3g1jj20b40b40t8.jpg", "(*｡_｡)", new Date(), false);
-//                chat.addTalkBox(0, 1, "5307397", "筠竹苑的小树林", "https://tva4.sinaimg.cn/large/9bd9b167ly1g1p9qmx8p1j20b40b40u3.jpg", "小树林里的卧龙凤雏", new Date(), false);
+
             }
-            else {
-                loginController.doLoginError();
-            }
-        });
-        login.doShow();
-    }
+    //        else {
+    //            loginController.doLoginError();
+    //        }
+    //    });
+    //    login.doShow();
+    //}
     public static void main(String[] args) {
         launch(args);
     }
+        }
 
 //    @Override
 //    public void start(Stage stage) throws IOException {
@@ -155,4 +150,3 @@ public class Main extends Application {
 //    }
 
 
-}

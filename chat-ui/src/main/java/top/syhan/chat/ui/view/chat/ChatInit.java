@@ -3,7 +3,6 @@ package top.syhan.chat.ui.view.chat;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.TextArea;
-import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -51,14 +50,13 @@ public abstract class ChatInit extends UIObject {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Scene scene = new Scene(root, 1243, 820);
+        Scene scene = new Scene(root, 1300, 820);
         scene.setFill(Color.TRANSPARENT);
         setScene(scene);
         //设置窗口置顶
         ((Stage) scene.getWindow()).setAlwaysOnTop(true);
         initStyle(StageStyle.TRANSPARENT);
         setResizable(false);
-        //this.getIcons().add(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("view/chat/img/head/logo.png"))));
         obtain();
         initView();
         initEventDefine();
@@ -68,5 +66,4 @@ public abstract class ChatInit extends UIObject {
         // 可以预加载
         txtInput = $("txt_input", TextArea.class);
     }
-
 }

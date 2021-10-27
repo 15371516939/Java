@@ -13,19 +13,22 @@ import top.syhan.chat.ui.view.chat.data.RemindCount;
 import top.syhan.chat.ui.view.chat.data.TalkData;
 import top.syhan.chat.ui.view.chat.group_bar_chat.ElementInfoBox;
 import top.syhan.chat.ui.view.chat.group_bar_chat.ElementTalk;
+import top.syhan.chat.ui.view.chat.group_bar_friend.ElementFriendGroup;
+import top.syhan.chat.ui.view.chat.group_bar_friend.ElementFriendUser;
 
 import java.util.Date;
 
-/**
- * @program: chat-ui
- * @description: 窗体的控制管理类
- * @author: SYH
- * @Create: 2021-10-22 22:03
- **/
-public class ChatController extends ChatInit implements IChatMethod{
 
-    private ChatEventDefine chatEventDefine;
+
+/**
+ * 窗体的控制管理类
+ *
+ * @author mqxu
+ */
+public class ChatController extends ChatInit implements IChatMethod {
+
     private ChatView chatView;
+    private ChatEventDefine chatEventDefine;
 
     public ChatController(IChatEvent chatEvent) {
         super(chatEvent);
@@ -207,4 +210,41 @@ public class ChatController extends ChatInit implements IChatMethod{
         return y() + height() - 180;
     }
 
+    @Override
+    public void addFriendGroup(String groupId, String groupName, String groupHead) {
+        ElementFriendGroup elementFriendGroup = new ElementFriendGroup(groupId, groupName, groupHead);
+        Pane pane = elementFriendGroup.pane();
+        // 添加到群组列表
+        ListView<Pane> groupListView = $("groupListView", ListView.class);
+        ObservableList<Pane> items = groupListView.getItems();
+        items.add(pane);
+        groupListView.setPrefHeight(80 * items.size());
+        $("friendGroupList", Pane.class).setPrefHeight(80 * items.size());
+        // 添加监听事件
+        pane.setOnMousePressed(event -> {
+            clearViewListSelectedAll($("friendList", ListView.class), $("userListView", ListView.class));
+        });
+    }
+
+    @Override
+    public void addFriendUser(boolean selected, String userFriendId, String userFriendNickName, String userFriendHead) {
+        ElementFriendUser friendUser = new ElementFriendUser(userFriendId, userFriendNickName, userFriendHead);
+        Pane pane = friendUser.pane();
+        // 添加到好友列表
+        ListView<Pane> userListView = $("userListView", ListView.class);
+        ObservableList<Pane> items = userListView.getItems();
+        items.add(pane);
+        userListView.setPrefHeight(80 * items.size());
+        $("friendUserList", Pane.class).setPrefHeight(80 * items.size());
+        // 选中
+        if (selected) {
+            userListView.getSelectionModel().select(pane);
+        }
+        // 添加监听事件
+        pane.setOnMousePressed(event -> {
+            clearViewListSelectedAll($("friendList", ListView.class), $("groupListView", ListView.class));
+        });
+    }
+
 }
+

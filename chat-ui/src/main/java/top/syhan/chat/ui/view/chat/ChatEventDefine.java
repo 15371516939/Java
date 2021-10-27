@@ -34,7 +34,7 @@ public class ChatEventDefine {
         this.barSet();
         doEventTextSend();   // 发送消息事件[键盘]
         doEventTouchSend();  // 发送消息事件[按钮]
-        doEventToolFace();
+        doEventToolFace();   // 表情窗体
     }
 
     /**
@@ -42,6 +42,9 @@ public class ChatEventDefine {
      */
     private void min() {
         chatInit.$("group_bar_chat_min", Button.class).setOnAction(event -> {
+            chatInit.setIconified(true);
+        });
+        chatInit.$("group_bar_friend_min", Button.class).setOnAction(event -> {
             chatInit.setIconified(true);
         });
     }
@@ -53,7 +56,10 @@ public class ChatEventDefine {
         chatInit.$("group_bar_chat_close", Button.class).setOnAction(event -> {
             chatInit.close();
             System.exit(0);
-            System.out.println("退出");
+        });
+        chatInit.$("group_bar_friend_close", Button.class).setOnAction(event -> {
+            chatInit.close();
+            System.exit(0);
         });
     }
 
@@ -206,8 +212,8 @@ public class ChatEventDefine {
      * 发送消息
      */
     private void doEventTouchSend() {
-        Label touch_send = chatInit.$("touch_send", Label.class);
-        touch_send.setOnMousePressed(event -> {
+        Label touchSend = chatInit.$("touch_send", Label.class);
+        touchSend.setOnMousePressed(event -> {
             doEventSendMsg();
         });
     }
@@ -217,8 +223,8 @@ public class ChatEventDefine {
      * 发送消息快捷键
      */
     private void doEventTextSend() {
-        TextArea txt_input = chatInit.$("txt_input", TextArea.class);
-        txt_input.setOnKeyPressed(event -> {
+        TextArea txtInput = chatInit.$("txt_input", TextArea.class);
+        txtInput.setOnKeyPressed(event -> {
             if (event.getCode().equals(KeyCode.ENTER)) {
                 doEventSendMsg();
             }
@@ -226,25 +232,25 @@ public class ChatEventDefine {
     }
 
     private void doEventSendMsg() {
-        TextArea txt_input = chatInit.$("txt_input", TextArea.class);
+        TextArea txtInput = chatInit.$("txt_input", TextArea.class);
         MultipleSelectionModel selectionModel = chatInit.$("talkList", ListView.class).getSelectionModel();
         Pane selectedItem = (Pane) selectionModel.getSelectedItem();
         // 对话信息
         TalkBoxData talkBoxData = (TalkBoxData) selectedItem.getUserData();
-        String msg = txt_input.getText().trim();
-        if (null == msg || "".equals(msg) || "".equals(msg.trim())) {
+        String msg = txtInput.getText().trim();
+        if ("".equals(msg)) {
             return;
         }
-        Date msgDate = new Date();
         // 发送消息
         System.out.println("发送消息：" + msg);
         // 发送事件给自己添加消息
-        chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, msgDate, true, true, false);
-        txt_input.clear();
+        chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, new Date(), true, false, false);
+        txtInput.clear();
     }
 
+
     /**
-     * 处理表情框事件
+     * 表情事件
      */
     private void doEventToolFace() {
         FaceController face = new FaceController(chatInit, chatInit, chatEvent, chatMethod);
