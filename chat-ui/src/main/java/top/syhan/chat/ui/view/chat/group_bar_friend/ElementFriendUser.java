@@ -6,10 +6,11 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
 
 /**
- * 添加好友
- *
- * @author mqxu
- */
+ * @program: chat-ui
+ * @description: 添加好友
+ * @author: SYH
+ * @Create: 2021-10-27 22:30
+ **/
 public class ElementFriendUser {
 
     /**

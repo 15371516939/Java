@@ -209,7 +209,7 @@ public class ChatEventDefine {
     }
 
     /**
-     * 发送消息
+     * 发送消息[按钮]
      */
     private void doEventTouchSend() {
         Label touchSend = chatInit.$("touch_send", Label.class);
@@ -244,8 +244,50 @@ public class ChatEventDefine {
         // 发送消息
         System.out.println("发送消息：" + msg);
         // 发送事件给自己添加消息
-        chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, new Date(), true, false, false);
+        chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, new Date(), true, true, false);
         txtInput.clear();
+    }
+
+
+    /**
+     * 与好友发送消息 [点击发送消息时候触发 -> 添加到对话框、选中、展示对话列表]
+     *
+     * @param sendMsgButton      发送按钮
+     * @param userFriendId       好友id
+     * @param userFriendNickName 好友昵称
+     * @param userFriendHead     好友头像
+     */
+    public void doEventOpenFriendUserSendMsg(Button sendMsgButton, String userFriendId, String userFriendNickName, String userFriendHead) {
+        sendMsgButton.setOnAction(event -> {
+            // 1. 添加好友到对话框
+            chatMethod.addTalkBox(0, 0, userFriendId, userFriendNickName, userFriendHead, null, null, true);
+            System.out.println(userFriendId + "," + userFriendNickName);
+            // 2. 切换到对话框窗口
+            switchBarChat(chatInit.$("barChat", Button.class), chatInit.$("groupBarChat", Pane.class), true);
+            switchBarFriend(chatInit.$("barFriend", Button.class), chatInit.$("groupBarFriend", Pane.class), false);
+            // 3. 事件处理；填充到对话框
+            System.out.println("事件处理；填充到对话框");
+        });
+    }
+
+    /**
+     * 群组发送消息
+     *
+     * @param sendMsgButton 发送按钮
+     * @param groupId       群组id
+     * @param groupName     群组名称
+     * @param groupHead     群头像
+     */
+    public void doEventOpenFriendGroupSendMsg(Button sendMsgButton, String groupId, String groupName, String groupHead) {
+        sendMsgButton.setOnAction(event -> {
+            // 1. 添加群组到对话框
+            chatMethod.addTalkBox(0, 1, groupId, groupName, groupHead, null, null, true);
+            // 2. 切换到对话框窗口
+            switchBarChat(chatInit.$("barChat", Button.class), chatInit.$("groupBarChat", Pane.class), true);
+            switchBarFriend(chatInit.$("barFriend", Button.class), chatInit.$("groupBarFriend", Pane.class), false);
+            // 3. 事件处理；填充到对话框
+            System.out.println("事件处理；填充到对话框");
+        });
     }
 
 
@@ -259,4 +301,5 @@ public class ChatEventDefine {
             face.doShowFace(chatMethod.getToolFaceX(), chatMethod.getToolFaceY());
         });
     }
+
 }

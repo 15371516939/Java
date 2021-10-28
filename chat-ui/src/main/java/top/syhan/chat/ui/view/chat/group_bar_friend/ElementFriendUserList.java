@@ -6,10 +6,11 @@ import javafx.scene.control.ListView;
 import javafx.scene.layout.Pane;
 
 /**
- * 好友列表组件
- *
- * @author duyunjian
- */
+ * @program: chat-ui
+ * @description: 好友列表组件
+ * @author: SYH
+ * @Create: 2021-10-27 22:31
+ **/
 public class ElementFriendUserList {
 
     private final Pane pane;

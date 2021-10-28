@@ -1,18 +1,16 @@
 package top.syhan.chat.ui.view.chat.group_bar_friend;
 
-
-
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.ListView;
 import javafx.scene.layout.Pane;
 
-
 /**
- * 群组列表
- *
- * @author mqxu
- */
+ * @program: chat-ui
+ * @description: 群组
+ * @author: SYH
+ * @Create: 2021-10-27 22:26
+ **/
 public class ElementFriendGroupList {
 
     private final Pane pane;

@@ -87,11 +87,11 @@
 }
 
 .elementFriendNew_head{
-    -fx-background-image: url("../../img/system/friend_luck_50.png");
+    -fx-background-image: url("../img/system/friend_luck_50.png");
 }
 
 .elementFriendSubscription_head{
-    -fx-background-image: url("../../img/system/friend_group_50.png");
+    -fx-background-image: url("../img/system/friend_group_50.png");
 }
 
 .elementFriendNew_name,.elementFriendSubscription_name,.elementFriendGroup_name,.elementFriendUser_name{

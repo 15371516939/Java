@@ -1,7 +1,5 @@
 package top.syhan.chat.ui.view.chat.group_bar_friend;
 
-
-
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
@@ -9,12 +7,12 @@ import javafx.scene.layout.Pane;
 import top.syhan.chat.ui.util.Ids;
 import top.syhan.chat.ui.view.chat.data.GroupsData;
 
-
 /**
- * 群组元素
- *
- * @author mqxu
- */
+ * @program: chat-ui
+ * @description: 群元素
+ * @author: SYH
+ * @Create: 2021-10-27 22:24
+ **/
 public class ElementFriendGroup {
 
     private final Pane groupPane;

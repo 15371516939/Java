@@ -1,6 +1,5 @@
 package top.syhan.chat.ui.view.chat.group_bar_friend;
 
-
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
@@ -11,7 +10,7 @@ import javafx.scene.text.TextAlignment;
 /**
  * 公众号
  *
- * @author duyunjian
+ * @author mqxu
  */
 public class ElementFriendSubscription {
 
@@ -56,20 +55,22 @@ public class ElementFriendSubscription {
 
         Button gzhButton = new Button();
         gzhButton.setPrefSize(65, 65);
-        gzhButton.setLayoutX(110);
+        gzhButton.setLayoutX(90);
         gzhButton.setLayoutY(30);
         gzhButton.setStyle("-fx-background-color: transparent;" +
                 "-fx-background-radius: 0px;" +
-                "-fx-border-width: 50px;");
+                "-fx-border-width: 50px;" +
+                "-fx-background-size: cover;" +
+                "-fx-background-image: url('https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/Java.jpg');");
         subPaneChildren.add(gzhButton);
 
         Label gzhLabel = new Label();
         gzhLabel.setPrefSize(150, 20);
         gzhLabel.setLayoutX(95);
         gzhLabel.setLayoutY(100);
-        gzhLabel.setText("松山院");
+        gzhLabel.setText("Java时刻");
         gzhLabel.setStyle("-fx-background-color: transparent;-fx-border-width: 0; -fx-text-fill: #999999;" +
-                "-fx-font-size: 14px;");
+                "-fx-font-size: 16px;");
         gzhLabel.setTextAlignment(TextAlignment.CENTER);
         subPaneChildren.add(gzhLabel);
 

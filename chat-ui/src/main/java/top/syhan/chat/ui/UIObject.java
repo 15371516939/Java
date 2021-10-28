@@ -41,12 +41,6 @@ public abstract class UIObject extends Stage {
             root.setCursor(Cursor.DEFAULT);
         });
     }
-    @SafeVarargs
-    public final void clearViewListSelectedAll(ListView<Pane>... listViews) {
-        for (ListView<Pane> listView : listViews) {
-            listView.getSelectionModel().clearSelection();
-        }
-    }
 
     public double x() {
         return getX();
@@ -73,5 +67,11 @@ public abstract class UIObject extends Stage {
      * 初始化事件定义：抽象方法
      */
     public abstract void initEventDefine();
-}
 
+    @SafeVarargs
+    public final void clearViewListSelectedAll(ListView<Pane>... listViews) {
+        for (ListView<Pane> listView : listViews) {
+            listView.getSelectionModel().clearSelection();
+        }
+    }
+}

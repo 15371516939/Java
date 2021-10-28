@@ -1,9 +1,13 @@
 package top.syhan.chat.ui.view.chat;
 
 import javafx.collections.ObservableList;
+import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Pane;
+import top.syhan.chat.ui.param.AppConst;
 import top.syhan.chat.ui.view.chat.data.RemindCount;
 import top.syhan.chat.ui.view.chat.data.TalkBoxData;
 import top.syhan.chat.ui.view.chat.group_bar_friend.*;
@@ -146,7 +150,7 @@ public class ChatView {
     }
 
     /**
-     * 好友列表添加新朋友
+     * 好友列表，搜索、添加新朋友
      */
     private void initAddFriendNew() {
         ListView<Pane> friendList = chatInit.$("friendList", ListView.class);
@@ -161,7 +165,36 @@ public class ChatView {
 
         // 面板填充和事件
         pane.setOnMousePressed(event -> {
+            Pane friendNewPane = element.friendPane();
+            setContentPaneBox("chat-ui-chat-friend-new", "新的朋友", friendNewPane);
             chatInit.clearViewListSelectedAll(chatInit.$("userListView", ListView.class), chatInit.$("groupListView", ListView.class));
+            ListView<Pane> listView = element.friendListView();
+            listView.getItems().clear();
+            System.out.println("添加好友");
+        });
+
+        // 搜索框事件
+        TextField friendLuckSearch = element.friendSearch();
+
+        // 键盘事件；搜索好友
+        friendLuckSearch.setOnKeyPressed(event -> {
+            if (event.getCode().equals(KeyCode.ENTER)) {
+                String text = friendLuckSearch.getText();
+                if (null == text) {
+                    text = "";
+                }
+                if (text.length() > AppConst.TALK_SKETCH_LENGTH) {
+                    text = text.substring(0, AppConst.TALK_SKETCH_LENGTH);
+                }
+                text = text.trim();
+                System.out.println("搜索好友：" + text);
+                // 搜索清空元素
+                element.friendListView().getItems().clear();
+                // 添加朋友
+                element.friendListView().getItems().add(new ElementFriendNewUser("1000006", "梁吴俊", "https://obohe.com/i/2021/10/28/ne5ulw.png", 0).pane());
+                element.friendListView().getItems().add(new ElementFriendNewUser("1000007", "郭佳", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/gj.jpg", 1).pane());
+                element.friendListView().getItems().add(new ElementFriendNewUser("1000008", "王潇", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/wx.jpg", 2).pane());
+            }
         });
     }
 
@@ -181,7 +214,10 @@ public class ChatView {
 
         pane.setOnMousePressed(event -> {
             chatInit.clearViewListSelectedAll(chatInit.$("userListView", ListView.class), chatInit.$("groupListView", ListView.class));
+            Pane subPane = element.subPane();
+            setContentPaneBox("userListView", "公众号", subPane);
         });
+
     }
 
     /**
@@ -213,4 +249,23 @@ public class ChatView {
         Pane pane = element.pane();
         items.add(pane);
     }
+
+    /**
+     * group_bar_chat：填充对话列表 & 对话框名称
+     *
+     * @param id   用户、群组等ID
+     * @param name 用户、群组等名称
+     * @param node 展现面板
+     */
+    void setContentPaneBox(String id, String name, Node node) {
+        // 填充对话列表
+        Pane contentPaneBox = chatInit.$("content_pane_box", Pane.class);
+        contentPaneBox.setUserData(id);
+        contentPaneBox.getChildren().clear();
+        contentPaneBox.getChildren().add(node);
+        // 对话框名称
+        Label infoName = chatInit.$("content_name", Label.class);
+        infoName.setText(name);
+    }
+
 }

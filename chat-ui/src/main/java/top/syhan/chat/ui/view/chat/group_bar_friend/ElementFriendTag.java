@@ -1,16 +1,16 @@
 package top.syhan.chat.ui.view.chat.group_bar_friend;
 
-
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.layout.Pane;
 
 /**
- * 占位标签:新的朋友、公众号、群组、好友
- *
- * @author mqxu
- */
+ * @program: chat-ui
+ * @description: 占位标签:新的朋友、公众号、群组、好友
+ * @author: SYH
+ * @Create: 2021-10-27 22:29
+ **/
 public class ElementFriendTag {
 
     private final Pane pane;

@@ -33,7 +33,7 @@
     </PasswordField>
     <Button id="loginButton" layoutX="200" layoutY="340" prefHeight="45" prefWidth="250" styleClass="login-button" text="登 陆" />
     <!--版本(Label)-->
-    <Label id="slogan" layoutX="10" layoutY="392" prefHeight="15" prefWidth="400" text="v1.0 傻蛋不傻 | https://Wechat.com">
+    <Label id="slogan" layoutX="10" layoutY="392" prefHeight="15" prefWidth="400" text="v1.0 傻蛋不傻 | https://wechat.com">
         <font>
             <Font size="12" />
         </font>

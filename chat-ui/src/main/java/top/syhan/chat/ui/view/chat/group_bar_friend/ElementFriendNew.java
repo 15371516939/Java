@@ -1,6 +1,5 @@
 package top.syhan.chat.ui.view.chat.group_bar_friend;
 
-
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.Node;
@@ -10,10 +9,11 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 
 /**
- * 好友 | 添加好友
- *
- * @author mqxu
- */
+ * @program: chat-ui
+ * @description: 好友 | 添加好友
+ * @author: SYH
+ * @Create: 2021-10-27 22:27
+ **/
 public class ElementFriendNew {
 
     private final Pane pane;
