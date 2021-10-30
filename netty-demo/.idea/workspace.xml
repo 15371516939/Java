@@ -5,96 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52aea86f-17f6-41f1-a815-adccea7297b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Plechart/src/main/java/io/github/duyunjian/plechart/PieChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Plechart/src/main/java/io/github/duyunjian/plechart/utli/SystemInfoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jartest/jartest/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jartest/jartest/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jartest/jartest/xvf/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jartest/jartest/xvf/usejar/UseJarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/duyunjian/netty/demo/ByteArrayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/duyunjian/netty/demo/BytesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/duyunjian/netty/demo/TcpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/duyunjian/netty/demo/TcpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../notepad/src/main/java/com/example/notepad/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../notepad/src/main/java/com/example/notepad/view/NotepadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../notepad/src/main/resources/com/example/notepad/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../notepad/src/main/resources/com/example/notepad/view/notepad.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/oop：面向对象/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/oop：面向对象/ShallowOrDeepCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/oop：面向对象/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/other/URLRegExSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/serialize/io/github/java/serialize/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/serialize/io/github/java/serialize/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/serialize/io/github/java/serialize/StudentSerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/io/github/java/serialize/io/github/java/serialize/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/annotation：注解.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/annotation：注解/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/out/production/github/io/github/java/github.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/reflect/ClassDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/reflect/ReflectDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/reflect/TargetObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/io/github/java/reflect/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/person/TestComputer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/io/github/java/person/TestComputer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/reflect/ClassDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/reflect/ReflectDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/reflect/TargetObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/io/github/java/reflect/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/io/duyunjian/weather/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/io/duyunjian/weather/config/AppConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/io/duyunjian/weather/util/ApiConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/io/duyunjian/weather/view/PrimaryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/src/main/resources/io/duyunjian/weather/primary.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/config/AppConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/primary.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/util/ApiConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/target/classes/io/duyunjian/weather/view/PrimaryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather/weather.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/control/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic/control/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/control/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basic/control/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/netty-demo-1-00" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RunManager" selected="Application.TcpClient">
@@ -180,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634746504390</updated>
       <workItem from="1634746505871" duration="856000" />
+      <workItem from="1635608799339" duration="64000" />
     </task>
     <servers />
   </component>
