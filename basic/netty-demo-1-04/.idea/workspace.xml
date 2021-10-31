@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7e308e2-7800-4d28-a9be-85b998ce4529" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../netty-demo-1-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-demo-1-01/src/main/java/top/duyunjian/netty/demo/server/MyChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-demo-1-01/src/main/java/top/duyunjian/netty/demo/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/aio/ChannelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/aio/ChannelHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/aio/ChannelInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/aio/client/AioClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/aio/client/AioClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/aio/server/AioServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/aio/server/AioServerChannelInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/aio/server/AioServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/bio/ChannelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/bio/ChannelHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/bio/client/BioClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/bio/client/BioClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/bio/server/BioServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/bio/server/BioServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/nio/ChannelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/nio/ChannelHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/nio/client/NioClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/nio/client/NioClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/nio/server/NioServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/src/main/java/top/duyunjian/netty/demo/nio/server/NioServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/ChannelAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/ChannelAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/ChannelHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/ChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/client/AioClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/client/AioClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/server/AioServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/server/AioServerChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/aio/server/AioServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/bio/ChannelAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/bio/ChannelHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/bio/client/BioClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/bio/client/BioClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/bio/server/BioServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/bio/server/BioServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/nio/ChannelAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/nio/ChannelHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/nio/client/NioClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/nio/client/NioClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/nio/server/NioServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/target/classes/top/duyunjian/netty/demo/nio/server/NioServerHandler.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\tools\maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../tools/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="E:\tools\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="20GlXnEvkD0UqeF80Xx2gNFZEWI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7e308e2-7800-4d28-a9be-85b998ce4529" name="Changes" comment="" />
+      <created>1635678847776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635678847776</updated>
+      <workItem from="1635678849331" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
