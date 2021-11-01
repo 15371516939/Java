@@ -6,7 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="netty-demo-1-03 (4)" />
         <module name="netty-assistant" />
+        <module name="netty-demo-1-03" />
+        <module name="netty-demo-1-03 (1)" />
+        <module name="netty-demo-1-03 (2)" />
+        <module name="netty-demo-1-03 (3)" />
       </profile>
     </annotationProcessing>
   </component>
