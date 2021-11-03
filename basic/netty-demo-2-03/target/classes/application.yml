@@ -1,0 +1,5 @@
+server:
+  port:8080
+netty:
+  host: 10.30.141.47
+  port: 4000
