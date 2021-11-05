@@ -16,18 +16,21 @@
         <module name="netty-demo-1-03 (2)" />
         <module name="netty-demo-1-03 (3)" />
       </profile>
-      <profile name="Annotation profile for netty-demo-1-03 (7)" enabled="true">
-        <sourceOutputDir name="../netty-demo-2-03/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../netty-demo-2-03/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="netty-demo-1-03 (7)" />
-      </profile>
       <profile name="Annotation profile for netty-demo-1-03" enabled="true">
         <sourceOutputDir name="../netty-demo-2-02/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../netty-demo-2-02/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="netty-demo-1-03 (7)" />
+      </profile>
+      <profile name="Annotation profile for netty-demo-1-03 (6)" enabled="true">
+        <sourceOutputDir name="../netty-demo-2-03/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../netty-demo-2-03/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="netty-demo-1-03 (6)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="netty-demo-1-03 (7)" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
