@@ -281,4 +281,5 @@ public class ChatController extends ChatInit implements IChatMethod{
         });
         chatView.setContentPaneBox(userFriendId, userFriendNickName, detailContent);
     }
+
 }
