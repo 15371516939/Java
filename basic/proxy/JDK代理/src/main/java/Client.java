@@ -7,6 +7,6 @@ public class Client {
         //通过调⽤程序处理⻆⾊来处理我们要调⽤的接⼝对象
         pih.setTarget(userService);
         UserService proxy = (UserService) pih.getProxy();
-        proxy.update();
+        proxy.query();
     }
 }
