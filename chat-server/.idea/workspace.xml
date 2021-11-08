@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33485be8-a87d-4705-9ef3-36e8534f9ec1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/chat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/Checkimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/MyDemoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/Photos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top/duyunjian/chat/codec/ObjDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top/duyunjian/chat/codec/ObjEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top/duyunjian/chat/protocol/friend/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top/duyunjian/chat/protocol/friend/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/application/UIService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/domain/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/event/ChatEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/event/LoginEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/infrastructure/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/infrastructure/util/BeanUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/infrastructure/util/CacheUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/MyBizHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/MyChannelInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/AddFriendHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/LoginHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/MsgGroupHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/MsgHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/SearchFriendHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/TalkNoticeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/com/radical/chat/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/codec/ObjDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/codec/ObjEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/protocol/talk/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/protocol/talk/Packet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/util/SerializationUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/resources/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/webapp/res_layui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server-agreement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/codec/ObjDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/codec/ObjEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/protocol/talk/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/protocol/talk/Packet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/util/SerializationUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/IChatEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/IChatEvent.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../tools/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="C:\tools\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20Y9zLyp09fU2eiHkX8OtJmnsux" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.duyunjian.chat.protocol.friend" />
+      <recent name="top.duyunjian.chat.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\test\Desktop\JavaStudy\chat-server\chat-server-ddd\src\main\resources" />
+      <recent name="C:\Users\test\Desktop\JavaStudy\chat-server\chat-server-ddd\src\main" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33485be8-a87d-4705-9ef3-36e8534f9ec1" name="Changes" comment="" />
+      <created>1636210917542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636210917542</updated>
+      <workItem from="1636210919299" duration="1503000" />
+      <workItem from="1636215154015" duration="112000" />
+      <workItem from="1636294718256" duration="2178000" />
+      <workItem from="1636375133679" duration="439000" />
+      <workItem from="1636375618527" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

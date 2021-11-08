@@ -1,6 +1,8 @@
 package top.syhan.chat.ui;
 
 import javafx.application.Application;
+import javafx.scene.control.ListView;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import top.syhan.chat.ui.view.chat.ChatController;
 import top.syhan.chat.ui.view.chat.IChatEvent;
@@ -25,6 +27,45 @@ public class Main extends Application {
             //if ("180".equals(userId) && "123".equals(userPassword)) {
             //    loginController.doLoginSuccess();
                 IChatMethod chat = new ChatController(new IChatEvent() {
+                    @Override
+                    public void doQuit() {
+
+                    }
+
+                    @Override
+                    public void doSendMsg(String userId, String talkId, Integer talkType, String msg, Date msgDate) {
+
+                    }
+
+                    @Override
+                    public void doEventAddTalkUser(String userId, String userFriendId) {
+
+                    }
+
+                    @Override
+                    public void doEventAddTalkGroup(String userId, String groupId) {
+
+                    }
+
+                    @Override
+                    public void doEventDelTalkUser(String userId, String talkId) {
+
+                    }
+
+                    @Override
+                    public void addFriendNew(String userId, ListView<Pane> listView) {
+
+                    }
+
+                    @Override
+                    public void doFriendNewSearch(String userId, String text) {
+
+                    }
+
+                    @Override
+                    public void doEventAddNewUser(String userId, String friendId) {
+
+                    }
                 });
                 chat.doShow();
                 chat.setUserInfo("1000001", "duyunjian", "https://obohe.com/i/2021/10/28/nh12xv.jpg");
