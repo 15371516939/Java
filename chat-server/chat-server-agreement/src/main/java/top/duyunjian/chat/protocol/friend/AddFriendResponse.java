@@ -1,10 +1,11 @@
 package top.duyunjian.chat.protocol.friend;
 
-
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
+import top.duyunjian.chat.protocol.Command;
+import top.duyunjian.chat.protocol.Packet;
 
 /**
  * 添加好友应答
@@ -29,7 +30,7 @@ public class AddFriendResponse extends Packet {
     }
 
     @Override
-    public Object getCommand() {
+    public Byte getCommand() {
         return Command.AddFriendResponse;
     }
 }

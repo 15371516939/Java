@@ -5,74 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33485be8-a87d-4705-9ef3-36e8534f9ec1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/chat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/Checkimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/MyDemoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/Photos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/top/duyunjian/blog/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top/duyunjian/chat/codec/ObjDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top/duyunjian/chat/codec/ObjEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top/duyunjian/chat/protocol/friend/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top/duyunjian/chat/protocol/friend/Packet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/application/UIService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/domain/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/event/ChatEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/event/LoginEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/infrastructure/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/infrastructure/util/BeanUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/infrastructure/util/CacheUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/MyBizHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/MyChannelInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/NettyClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/AddFriendHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/LoginHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/MsgGroupHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/MsgHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/SearchFriendHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/duyunjian/chat/client/socket/handler/TalkNoticeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/com/radical/chat/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/codec/ObjDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/codec/ObjEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/protocol/talk/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/protocol/talk/Packet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/java/top.duyunjian.chat/util/SerializationUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/resources/spring-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-add/src/main/webapp/res_layui.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server-agreement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/codec/ObjDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/codec/ObjEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/protocol/talk/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/protocol/talk/Packet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server-agreement/src/main/java/top.duyunjian.chat/util/SerializationUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/IChatEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/IChatEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/domain/user/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/domain/user/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/common/EasyResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/common/PageReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/common/SocketChannelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/dao/IChatRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/dao/IGroupsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/dao/IGroupsMemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/dao/ITalkBoxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/dao/IUserFriendDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/dao/IUserGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/po/ChatRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/po/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/po/TalkBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/po/UserFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/po/UserGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/repository/InetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/infrastructure/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/interfaces/InetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/MyBizHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/MyChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/handler/AddFriendHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/handler/DelTalkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/handler/LoginHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/handler/MsgGroupHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/handler/MsgHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/handler/ReconnectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/handler/SearchFriendHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/java/top/duyunjian/chat/socket/handler/TalkNoticeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/spring/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/server/js/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/01_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/02_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/03_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/04_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/05_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/06_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/07_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/08_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/09_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/10_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/11_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/img/12_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/chat/user/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/api/clear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/api/init.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/api/menus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/api/table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/api/tableSelect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/api/upload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/css/layuimini.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/css/official-evaluation/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/images/captcha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-ddd/src/main/resources/webapp/res/js/lay-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-ddd/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server-ddd/src/main/webapp/res_layui.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +147,7 @@
       <workItem from="1636294718256" duration="2178000" />
       <workItem from="1636375133679" duration="439000" />
       <workItem from="1636375618527" duration="89000" />
+      <workItem from="1636438031595" duration="21000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 package top.duyunjian.chat.protocol.login.dto;
 
+
 import lombok.Data;
 
 import java.util.Date;

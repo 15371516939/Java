@@ -4,9 +4,8 @@ import com.dyuproject.protostuff.LinkedBuffer;
 import com.dyuproject.protostuff.ProtostuffIOUtil;
 import com.dyuproject.protostuff.Schema;
 import com.dyuproject.protostuff.runtime.RuntimeSchema;
-import com.fasterxml.aalto.UncheckedStreamException;
-import org.springframework.objenesis.Objenesis;
-import org.springframework.objenesis.ObjenesisStd;
+import org.objenesis.Objenesis;
+import org.objenesis.ObjenesisStd;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -14,14 +13,13 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * 序列化工具
  *
- * @author mqxu
+ * @author duyunjian
  */
 public class SerializationUtil {
 
     private static final Map<Class<?>, Schema<?>> CASHED_SCHEMA = new ConcurrentHashMap<>();
 
     private static final Objenesis OBJENESIS = new ObjenesisStd();
-    private static UncheckedStreamException RuntimeSchema;
 
     private SerializationUtil() {
 
@@ -67,7 +65,7 @@ public class SerializationUtil {
     private static <T> Schema<T> getSchema(Class<T> cls) {
         Schema<T> schema = (Schema<T>) CASHED_SCHEMA.get(cls);
         if (schema == null) {
-            schema = (Schema<T>) UncheckedStreamException.createFrom(cls);
+            schema = RuntimeSchema.createFrom(cls);
             CASHED_SCHEMA.put(cls, schema);
         }
         return schema;

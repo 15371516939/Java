@@ -3,7 +3,8 @@ package top.duyunjian.chat.protocol.friend;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
+import top.duyunjian.chat.protocol.Command;
+import top.duyunjian.chat.protocol.Packet;
 
 /**
  * 搜索好友请求
@@ -34,7 +35,7 @@ public class SearchFriendRequest extends Packet {
 
 
     @Override
-    public Object getCommand() {
+    public Byte getCommand() {
         return Command.SearchFriendRequest;
     }
 

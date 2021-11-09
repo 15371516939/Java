@@ -1,11 +1,10 @@
 package top.duyunjian.chat.protocol.login;
 
-
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import top.duyunjian.chat.protocol.friend.Command;
-import top.duyunjian.chat.protocol.friend.Packet;
+import top.duyunjian.chat.protocol.Command;
+import top.duyunjian.chat.protocol.Packet;
 import top.duyunjian.chat.protocol.login.dto.ChatTalkDto;
 import top.duyunjian.chat.protocol.login.dto.GroupsDto;
 import top.duyunjian.chat.protocol.login.dto.UserFriendDto;
@@ -51,12 +50,8 @@ public class LoginResponse extends Packet {
 
 
     @Override
-    public Object getCommand() {
+    public Byte getCommand() {
         return Command.LoginResponse;
     }
 
 }
-
-
-
-

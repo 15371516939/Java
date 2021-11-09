@@ -1,11 +1,11 @@
 package top.duyunjian.chat.protocol.login;
 
-
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import top.duyunjian.chat.protocol.friend.Command;
-import top.duyunjian.chat.protocol.friend.Packet;
+import top.duyunjian.chat.protocol.Command;
+import top.duyunjian.chat.protocol.Packet;
 
 /**
  * 登录请求
@@ -27,7 +27,7 @@ public class LoginRequest extends Packet {
 
 
     @Override
-    public Object getCommand() {
+    public Byte getCommand() {
         return Command.LoginRequest;
     }
 

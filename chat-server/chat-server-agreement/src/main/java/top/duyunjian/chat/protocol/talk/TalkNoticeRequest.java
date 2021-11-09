@@ -1,11 +1,10 @@
 package top.duyunjian.chat.protocol.talk;
 
-
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import top.duyunjian.chat.protocol.friend.Command;
-import top.duyunjian.chat.protocol.friend.Packet;
+import top.duyunjian.chat.protocol.Command;
+import top.duyunjian.chat.protocol.Packet;
 
 /**
  * 对话通知请求
@@ -34,7 +33,7 @@ public class TalkNoticeRequest extends Packet {
     }
 
     @Override
-    public Object getCommand() {
+    public Byte getCommand() {
         return Command.TalkNoticeRequest;
     }
 }

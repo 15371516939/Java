@@ -1,12 +1,10 @@
 package top.duyunjian.chat.protocol.login;
 
-
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import top.duyunjian.chat.protocol.friend.Command;
-import top.duyunjian.chat.protocol.friend.Packet;
-
+import top.duyunjian.chat.protocol.Command;
+import top.duyunjian.chat.protocol.Packet;
 
 /**
  * 重连请求
@@ -24,7 +22,7 @@ public class ReconnectRequest extends Packet {
     }
 
     @Override
-    public Object getCommand() {
+    public Byte getCommand() {
         return Command.ReconnectRequest;
     }
 }

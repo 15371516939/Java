@@ -1,5 +1,8 @@
 package top.duyunjian.chat.protocol.friend;
 
+import lombok.Data;
+import top.duyunjian.chat.protocol.Command;
+import top.duyunjian.chat.protocol.Packet;
 
 /**
  * 添加好友请求
@@ -42,7 +45,7 @@ public class AddFriendRequest extends Packet {
     }
 
     @Override
-    public Object getCommand() {
+    public Byte getCommand() {
         return Command.AddFriendRequest;
     }
 
